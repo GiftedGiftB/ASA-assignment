@@ -1,18 +1,15 @@
+pass_and_fail= int(input('Enter result (1 = pass, 2 = fail): '))
 passes = 0
 failure = 0
 
-for student in range (10):
-	result = int(input('Enter result (1 = pass, 2 = fail): '))
-	if result < 0 and result > 2:
+for student in range (0, pass_and_fail):
+	if pass_and_fail < 1 and pass_and_fail > 2:
 		print('invalid number')
 
-	if result == 1 and result == 2:
-		passes = passes + 1
+	if passes == 1 and failure == 2:
+		passes++
 	else: 
-		failures = failure + 1
+		failure++
 
 print('passed:', passes)
-print('failed:', failure)
-
-if passes > 8:
-	print('Bonus to insructor')
+print('failed:', failures)
