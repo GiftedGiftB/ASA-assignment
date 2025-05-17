@@ -9,5 +9,4 @@ for count in range (101):
 
 	world_population1 = world_population_growth*((growth_rate)**count)
 
-	world_population2 =
-	print(count,'\t', world_population1,'\t', )
+		print(count,'\t', world_population1,'\t', )

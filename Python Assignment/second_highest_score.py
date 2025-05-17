@@ -11,11 +11,11 @@ for count in range(0,number_of_student):
 	if student_score > highest_student_score:
 		highest_student_name = name_of_student
 		highest_student_score = student_score
-		second_highest_student_name = name_of_student
 		secocnd_highest_student_score = student_score
-	
-if secocnd_highest_student_score >= highest_student_score:
-	second_highest_student_name = name_of_student
-	secocnd_highest_student_score = student_score
+		second_highest_student_name = name_of_student
+
+	elif student_score > secocnd_highest_student_score and student_score != highest_student_score:
+		secocnd_highest_student_score = student_score
+		second_highest_student_name = name_of_student
 
 print (f'The name of student with the highest score is {highest_student_name} with the highest score of {highest_student_score} and the second highest score goes to {second_highest_student_name} with the score of {secocnd_highest_student_score}')
