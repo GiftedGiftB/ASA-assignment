@@ -1,5 +1,6 @@
 def nokia3310_menu():
-	print("""
+	while true:
+		print("""
 	NOKIA 3310 MENU
 1.Phone book
 2.Messages
@@ -19,6 +20,8 @@ def nokia3310_menu():
 while True:
 	nokia3310_menu()
 	userNumber = int(input("Enter a number: "))
+	if userNumber == 0:
+		break
 	match userNumber:
 
 		case 1:
@@ -36,5 +39,36 @@ while True:
 10.Voice tags
 """)
 phone_book = int(input("Enter a number: "))
+print("invalid number")
+continue
 
+match 	phone_book:
+	case 1:
+		print("Search")
+	case 2:
+		print("Service Nos")
+	case 3:
+		print("Add name")
+	case 4:
+		print("Erase")
+	case 5:
+		print("Edit")
+	case 6:
+		print("Assign tone")
+	case 7:
+		print("Send b'card")
+	case 8:
+		print("""
+	Option
+1. Type of view
+2. Memory status
+		""")
+
+	case 9:
+		print("Speed dials")
+
+	case 10: print("Voice tags")
 	
+
+
+
