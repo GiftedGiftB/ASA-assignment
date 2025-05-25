@@ -34,10 +34,12 @@ while main_menu:
 	8.Options
 	9.Speed
 	10.Voice tags
+	0. Back
 """)
-		options = int(input())
-		if options == 8:
-			print("""
+	menu
+	options = int(input())
+	if options == 8:
+		print("""
 	1. Type of view
 	2. Memory status
 """)
