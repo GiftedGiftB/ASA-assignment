@@ -28,7 +28,10 @@ for number in range(1, 3 + 1):
 
 	elif total != user_number:
 		print("You are wrong")
-		times_failed = times_failed + 1
+		total = minuend - subtrahend
+		user_number = int(input("Whats the answer: "))
 
+		times_failed = times_failed + 1
+		
 print("Total numbers of fails: ", times_failed)
 print("Total number of trials: ", number)
