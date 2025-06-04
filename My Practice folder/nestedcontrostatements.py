@@ -17,5 +17,3 @@ while count <= 10:
 
 print('The first largest value is: ',first_largest_number, second_largest_number)
 	
-
-	
