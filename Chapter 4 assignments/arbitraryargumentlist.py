@@ -9,4 +9,3 @@ print(result)
 
 total = get_product(12, 2, 3, 13, 15)
 print(total)
-
