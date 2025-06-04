@@ -2,16 +2,23 @@ print("""
 		Welcome to Semicolon Bank ATM
 """)
 def account_balance():
+
 	print(f"your balance is ${balance:.2f}")
 
 def withdraw():
+
 	amount = float(input("Enter withdrawal amount: "))
+
 	if amount < 0:
+
 		print("invalid withdraw amount")
 	else:
+
 		return amount
 def maximum_amount():
+
 	if amount > 20000:
+
 		print("Twenty thousand naira per transaction")
 
 History = []

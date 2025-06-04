@@ -1,4 +1,17 @@
-total = 0
+def get_cartegorize_number(*numbers):
+
+	divisible_number = ()
+
+	count = 0
+
+	while count < len (number)
+
+		if numbers[count] % 5 == 0:
+
+			divisible_number += (numbers[count])
+
+		count += divisible_number
+
 
 for number in range(1,4):
 	userNumber = int(input("Enter a number: "))
