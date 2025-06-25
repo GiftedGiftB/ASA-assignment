@@ -1,7 +1,7 @@
 def create_account():
-	createAccount = int(input("Enter account number: "))
-	name = input("Enter name: ")
-
+	first_name = input("Enter account number: ")
+	last_name = input("Enter name: ")
+	
 def show_balance():
 	print(f"your balance is ${balance:.2f}")
 
