@@ -16,5 +16,6 @@ def convert_number_to_words(number):
 if __name__ == '__main__':
 
     number = int(input("Enter a number: "))
+
     number_in_word = convert_number_to_words(number)
     print(f"The number {number} is: {number_in_word}")
