@@ -19,3 +19,4 @@ print("remove number: ", number)
 length = len(number)
 for i in range(length):
     print(number[i])
+
