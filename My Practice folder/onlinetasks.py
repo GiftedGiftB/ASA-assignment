@@ -26,7 +26,14 @@ def find_max(num1, num2, num3):
 		max = num3
 	return max
 
-
+	# number 5
+def count_vowel(vowel):
+	count = 0
+	vowel = vowel.toLowerCase()
+	for numbers in range(0, vowel):
+		numbers = vowel.charAt()
+		if numbers = 'a' or numbers = 'e' or numbers = 'i' or numbers = 'o' or numbers = 'u':
+		count++
 
 
 	# number 1
@@ -45,11 +52,15 @@ number = is_even(10)
 print(number)
 
 	# number 4
-num1 = 3
+num1 = 15
 num2 = 7
-num3 = 2
+num3 = 9
 result = find_max(num1, num2, num3)
 print(result)
+	
+	# number 5
+word = 'banana'
+count = print(count_vowel(vowel)):            # still working on this
 
 
 
