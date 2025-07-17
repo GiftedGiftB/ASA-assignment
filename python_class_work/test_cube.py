@@ -1,7 +1,5 @@
 import cube
 from unittest import TestCase
-
-
 class Testcube(TestCase):
 	def test_get_cube_function_exists(self):
 		cube.get_cube(3)
