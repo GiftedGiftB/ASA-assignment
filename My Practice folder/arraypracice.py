@@ -15,3 +15,23 @@ numbers = [10, 20, 30, 40]
 for num in numbers:
 	print(num * 5)
 
+names = ["Ali", "Zara", "Mina"]
+for name in range(len(names)):
+	print(f"Hello, {names[name]}!")
+
+scores = [50, 60, 70, 80]
+scores[2] = 100
+print(scores)
+
+numbers = [5, 12, 7,20, 3]
+for num in numbers:
+	if num > 10:
+		print(num)
+
+numbers = [2, 4, 6,8]
+total = 0
+for num in numbers:
+	total += num
+print(total)
+
+
