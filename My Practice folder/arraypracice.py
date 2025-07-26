@@ -81,3 +81,19 @@ print()  # 13
 letters = ['a', 'b', 'c', 'd', 'e']
 letters.pop(2)
 print(letters)
+
+print() # 14
+numbers = [10, 15, 20, 25, 30]
+
+#numbers.append(18)
+numbers.insert(2, 18)
+print(numbers)
+
+
+print()  #15
+def greet_user(name):
+	print("hello," + name)
+
+greet_user("gift!")
+
+
