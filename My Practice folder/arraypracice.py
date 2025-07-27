@@ -137,3 +137,15 @@ print(result)
 restore_list = reverse_list(result)
 print(restore_list)
 
+
+print() #20
+def sum_of_positive(list):
+	sum = 0
+	for numbers in list:
+		if numbers > 0:
+			sum += numbers
+	return sum
+
+result = sum_of_positive([-3, 7, -1, 5, 0, -2, 8])
+print(result)
+
