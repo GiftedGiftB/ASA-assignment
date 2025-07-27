@@ -42,7 +42,7 @@ list = [2, 4, 6, 8]
 result = 0
 for number in list:
 	result += number
-print(result)
+print(result) 
 
 print()  #10
 list = ["Paris", "London", "Tokyo", "Dubai"]
@@ -54,6 +54,7 @@ else:
 print()  #11
 temperatures = [22, 25, 19, 30, 28]
 print(max(temperatures))
+
 print()  # OR
 temperatures = [22, 25, 19, 30, 28]
 max_number = temperatures[0]
@@ -96,4 +97,43 @@ def greet_user(name):
 
 greet_user("gift!")
 
+print()  #16
+def add_numbers(num1, num2):
+	sum = num1 + num2
+	return sum
+
+sum = print(add_numbers(8, 12))
+
+
+print()  #17
+def get_first_item(lists):
+	return lists[0]
+
+
+lists = get_first_item(["sun", "moon", "stars"])
+print(lists)
+
+
+print()  #18
+def count_even_numbers(list):
+	count = 0
+	for numbers in list:
+		if numbers % 2 == 0:
+			count += 1
+	return count
+
+result = count_even_numbers([2, 5, 8, 11, 14, 17])
+print(result)
+
+
+print()   #19
+
+def reverse_list(list):
+	return list[::-1]
+
+result = reverse_list([1, 2, 3, 4, 5])
+print(result)
+
+restore_list = reverse_list(result)
+print(restore_list)
 
